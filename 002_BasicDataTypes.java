@@ -18,7 +18,7 @@ public class BasicDataTypes {
         float d = Float.parseFloat(str[3]);
         double e = Double.parseDouble(str[4]);
         
-        System.out.println(a + "\n" + b+ "\n"+ c + "\n" + d + "\n" + e);
+        System.out.println(a + "\n" + b + "\n" + c + "\n" + d + "\n" + e);
         
         br.close();
     }
