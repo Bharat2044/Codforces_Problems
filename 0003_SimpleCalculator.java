@@ -12,7 +12,7 @@ public class SimpleCalculator {
         
         String[] str = br.readLine().split(" ");
 
-        int a = Integer.parseInt(str[0]);
+        long a = Long.parseLong(str[0]);
         long b = Long.parseLong(str[1]);
         
         System.out.println(a + " + " + b + " = " + (a + b));
